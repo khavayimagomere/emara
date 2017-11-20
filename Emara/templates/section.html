@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+   	<head>
+         {% load static %}   	  
+        {% block tittle %}<tittle>section</tittle>{% endblock %}
+        <link rel="stylesheet" type="text/css" href="static/css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <!--{% load static %}-->
+        <link rel="stylesheet" href="/static 'admin/css/base.css'/">
+        
+    </head>
+    <style type="text/css">
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	height: 400px;
+	background-color: #fff;
+	margin: 0;
+	padding:0;
+	
+}
+ .signup{
+ 	float: right;
+ 	margin-top: 40px;
+ 	margin-right: 40px;
+ 	font-size: 20px;
+ 	color: #0359a6;
+ 	margin-left: 2%;
+ }
+ .signup button{
+ 	float: right;
+ 	margin-top: 40px;
+ 	margin-right: 20px;
+ 	font-size: 20px;
+ 	color: #0359a6;
+ 	margin-left: 120px;
+ 	border: none;
+ 	background-color: #9dd2f4;
+ 	border-radius: 3px;
+ 	height: 50px;
+ 	width: 200px;
+ }
+ .signup b{
+ 	float: right;
+ 	margin-top: 40px;
+ 	margin-right: 40px;
+ 	font-size: 20px;
+ 	color: #0359a6;
+ 	margin-left: 100px;
+ }
+
+ a{
+ 	text-decoration: none;
+ }
+ header{
+ 	color: cyan;
+ 	text-align: center;
+ 	margin: 0 auto;
+ 	padding: 2px;
+}
+
+header ul li{
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px;
+}
+.bar{
+	background-color: #0359a6;
+	height:90px; 
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.non{
+	background-color: #fff;
+	height: 50px;
+}
+.sections{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+
+}
+.sections h1{
+	margin: 0 auto;
+	text-align: center;
+	color: #005dd1;
+	padding-top: 20px;
+}
+.sec1{
+	width: 400px;
+	height: 290px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec1 a{
+	color:black;
+}
+.sec1{
+	width: 400px;
+	height: 290px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec2{
+	width: 400px;
+	height: 290px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec3{
+	width: 400px;
+	height: 290px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec4{
+	width: 400px;
+	height: 280px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec5{
+	width: 400px;
+	height: 280px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+.sec6{
+	width: 400px;
+	height: 280px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 42px;
+	margin-bottom: 10px;
+}
+h2{
+	color: #005dd1;
+}
+h3{
+	color: #000000;
+}
+li{
+	color: #005dd1;
+}
+ul li{
+	line-height: 200%;
+}
+
+.papers{
+	background-color:#9dd2f4;
+	width: 100%;
+	height: 600px;
+    margin: 0 auto;
+	color:#005dd1;
+	margin-top: 40px;
+}
+.papers h1{
+	margin: 0 auto;
+	color:  #0359a6;
+	text-align: center;
+	margin-top: -40px;
+	padding-top: 20px;
+}
+
+.cont1{ 
+   width:400px; 
+   height:290px;
+   float: left;
+   margin-left: 20px;
+   margin-top: 5px;
+   text-align: center;
+   text-indent: 5px;
+
+}
+.cont1 a{
+	color: #0359a6;
+}
+
+.cont2{ 
+   width:400px; 
+   height:290px;
+   float: left;
+   margin-left: 30px;
+   margin-top: 5px;
+   text-align: center;
+   text-indent: 5px;
+   color:#0359a6; 
+}
+.cont3{
+   width:400px; 
+   height:290px;
+   float: left;
+   margin-left: 30px;
+   margin-top: 5px;
+   text-align: center;
+   text-indent: 5px;
+   color: #0359a6;
+  
+}
+
+.cont1 ul li{
+	margin-top: 10px;
+
+}
+
+.cont2 ul li{
+	margin-top: 10px;
+	
+}
+
+.cont3 ul li{
+	margin-top: 10px;
+	
+}
+
+.bar2{
+	width: 300px;
+	height: 290px;
+	text-align: center;
+	font-weight: bold;
+	color: #0359a6;
+	margin-left: 550px;
+   
+}
+
+.services{
+	float:left;
+	margin-top:20px;
+	padding-bottom: 20px;
+	width:100%;
+	height: 600px;
+	background-color: #0359a6;
+	margin-top: -5px;
+}
+.services h1 {
+    text-align: center;
+    color:#ffffff; 
+}
+.services p{
+	margin-left: 350px;
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 200%;
+    font-style:normal;
+    font-weight: bold;
+}
+
+.Contact{
+	 height:795px;
+	 background-color: #ffffff;
+	 margin-top: -20px;
+	 padding:20px;
+	 margin: 0 auto;
+}
+
+.Contact p{
+	font-size: 20px;
+	color: #0359a6;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.Contact h1{
+	color: #0359a6;
+	margin: 0 auto;
+	text-align: center;
+}
+
+hr{
+	width: 100px;
+    
+}
+
+.hub input{
+	float: left;
+	width: 240px;
+	height: 30px;
+    border-radius: 5px;
+	margin-top: 40px;
+	margin-left: 250px;
+	text-indent: 18px;
+	font-size: 13px;
+	font-weight:bold;
+	border-style: none;
+	background-color: #0359a6;
+}
+
+.hub1 input{
+    float: right;
+    margin-top: 40px;
+    width: 240px;
+    height: 30px;
+    font-weight:bold;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 300px;
+    text-indent: 18px;
+    background-color: #0359a6;
+    border-style: none;
+    
+
+}
+
+.hub2 textarea{
+    float: right;
+    margin-top: 50px;
+    width: 750px;
+    color: white;
+    height: 211px;
+    font-weight:bold;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 300px;
+    text-indent: 18px;
+    border-style: none;
+    background-color: #0359a6;
+}
+
+
+input::placeholder {
+  color: #000;
+}
+
+textarea::placeholder {
+  color: #fff;
+}
+
+.login2 button{
+	
+	color: #fff;
+	text-align: center;
+    border-style: none;
+    border-bottom:5px solid #9dd2f4;
+    width: 304px;
+	height:65px;
+	background-color:#0359a6 ;
+	margin-left: 485px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.footer{
+	margin-top: 120px;
+	margin-left: -322px;
+
+}
+.content p{
+	color:#000000;
+	font-size: 15px;
+}
+.container5{
+	width: 367px;
+	height:384px;
+	background-color: #9dd2f4;
+	margin-left: 20px;
+	margin-top: 90px;
+	border-radius: 5px;
+}
+.circle{
+	width: 80px;
+	height: 78px;
+	background-color:  #127da7;
+	margin:0 auto;
+	border-radius: 40px;
+	margin-top:-170px;
+	margin-bottom: -20px;
+	margin-left: 130px;
+	display: inline-block;
+}
+ .circle img{
+   margin-left: 30px;
+   margin-top:25px;
+   color: #fff;
+}
+
+.Login header {
+	
+	margin-left: 120px;
+	margin-top: 50px;
+	font-size: 22px;
+	margin: 0 auto;
+}
+
+.username input{
+	width: 285px;
+	height:50px;
+	background-color: #eaeaea;
+	border-style: none;
+	margin-left: 40px;
+	text-indent: 100px;
+	border-radius: 5px;
+	margin-top: 40px;
+	color: #6f6f6d;
+
+
+}
+
+.password input{
+	width: 285px;
+	height:50px;
+	background-color: #eaeaea;
+	border-style: none;
+	margin-top: 34px;
+	margin-left: 40px;
+	text-indent: 100px;
+	border-radius: 5px;
+	color: #6f6f6d;
+
+
+}
+.login input{
+	width :135px;
+	height: 46px;
+	background-color:  #127da7;
+	border-style: none;
+	margin-top: 34px;
+	margin-left: 100px;
+	text-indent: 12px;
+	border-radius: 5px;
+	color: #e9ffff;
+
+}
+
+.footer {
+	margin-left: 80px;
+	font-size: 13px;
+	color: #928396;
+	margin-top: 55px;
+	/*margin: 0 auto;*/
+}
+
+a{
+	text-decoration: none;
+	color: #928396;
+}
+.quiz p{
+	color: #000000;
+	margin-left: 0;
+}
+
+.register{
+	background-color:  #0359a6;
+	width: 500px;
+	height: 510px;
+	margin-left: 500px;
+	margin-bottom: 200px; 
+
+}
+.m-create{
+	margin-top: -410px;
+	margin-left: 80px;
+}
+
+.create h3{
+  	color:#0359a6;
+  	text-align: center;
+  	margin-left: 40px; 
+
+  }
+
+.register form{
+
+	width: 300px;
+	height: 20px;
+	margin-left: 50px;
+	color:  #fff; 
+}
+
+ .register input{
+    border-radius: 8px;
+	width: 350px;
+	height: 25px;
+	margin-top: 30px;																				
+	text-indent: 20px;
+	border: solid #9dd2f4;
+	background-color:  #9dd2f4;
+	
+  }
+
+.reg button{
+  	margin: 0 auto;
+  	margin-top: 35px;
+  	width: 150px;
+  	border-radius: 8px;
+  	background-color:   #9dd2f4;
+  	border: none;
+  	height: 45px;
+  	color: #0359a6;
+  	margin-left: 110px; 
+  	font-weight: bold;
+
+
+
+  }
+
+@media only screen and (max-width: 0){
+	#div{width: 200px;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 1000){
+	#div{width: 500px;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 1500){
+	#div{width: 900px;
+		padding: 0;
+		margin: 0;
+	}
+}
+    </style>
+    <body>
+
+    <div class="container">
+
+      <div class="bar">
+
+    <header>
+         {% block sidebar %}
+      <ul>
+        <li><a href="/index">Home</a></li>
+        <li class="active"><a href="/sections/">Sections</a></li>
+        <li><a href="/papers">Papers</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+         {% endblock %}
+    </header>
+    </div>
+    {% block content %}{% endblock %}
+    <div class="sections">
+    <h1>KASNEB CPA NOTES</h1>
+      
+    <div class="sec1">
+          <h2>CPA PART I</h2>
+            <h3><a href="/notes">SECTION 1</h3>
+            <ul>
+              <li>Financial Accounting</li>
+              <li>Commercial Law</li>
+              <li>Entrepreneurship and Communication</li>
+            </ul>
+
+    </div>
+    <div class="sec2">
+    <h2>CPA PART II</h2>
+      <h3>SECTION 3</h3>
+            <ul>
+              <li>Company Law</li>
+              <li>Financial Management</li>
+              <li>Financial Report</li>
+            </ul>
+    </div>
+
+    <div class="sec3">
+    <h2>CPA PART III</h2>
+      <h3>SECTION 5</h3>
+      <ul>
+        <li>Strategy Governance and Ethics</li>
+        <li>Advanced Management Accounting</li>
+        <li>Advance Financial Management</li>
+      </ul>
+    </div>
+
+    <div class="sec4">
+          <h3>SECTION 2</h3>
+          <ul>
+            <li>Economic</li>
+            <li>Managemaent Accounting</li>
+            <li>Public Finance and Taxation</li>
+          </ul>
+    </div>
+
+
+    <div class="sec5">
+          <h3>SECTION 4</h3>
+            <ul>
+              <li>Auditing and Assuarance</li>
+              <li>Management Information System</li>
+             <li>Quantitative analysis</li>
+            </ul>
+            
+    </div>
+
+    <div class="sec6">
+      <h3>SECTION 6</h3>
+      <ul>
+        <li>Advance Public Finance and Taxation</li>
+        <li>Advance Auditing and Assuarance</li>
+        <li>Advanced Financial Reporting</li>
+      </ul>
+    </div>
+       
+    </div>
+    </div>
+    <br clear="all">
+     </body>
+</html>
+
+
+  
+
+
+
+
+ 
+
+       		
+  	
+   
+    	

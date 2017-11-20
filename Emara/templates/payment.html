@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>payment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+  .container{
+    width:300px;
+    height:500px;
+    background:#0d19ba;
+    margin:auto;
+    padding-top:20px;
+    margin-top:200px;
+    
+    
+  }
+  input[type=submit] {
+    color:#fff;
+    padding:5px 15px; 
+    margin-top:40px;
+    background:#222; 
+    margin-left:40px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 3px; 
+}
+</style>
+<body>
+
+<div class="container">
+  
+<form action="/payment/" method="post"> 
+    {% csrf_token %}
+   
+    {{ form }}
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@happy.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Amount</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>150</option>
+      <option>2000</option>
+      
+    </select>
+  </div>
+   <div class="form-group">
+    <label for="exampleFormControlSelect1">Sections</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+        <option value="section1">section1</option>
+        <option value="section2">section2</option>
+        <option value="section3">section3</option>
+        <option value="section4">section4</option>
+        <option value="section5">section5</option>
+        <option value="section6">section6</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Any other course</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+ <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+</div>
+
+</body>
+</html>
